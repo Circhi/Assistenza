@@ -1,0 +1,102 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background: #ffffff;
+    color: #181414;
+    background-image: url(img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+  margin-top: 0;
+  margin: 20px;
+  }
+
+
+.nav button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 200px;
+  margin-right: 20px;
+}
+
+
+#button-links{
+    border-radius: 20px;   
+    border-style: solid;
+    background-color: #fff;
+    
+   }
+
+   
+
+#button-links:hover {
+    background-color: #e72020;
+    transition: 0.5s ;
+}
+#button-links:hover::after {
+    background-color: #e72020;
+
+    transition: 0.5s ;
+}
+
+
+nav ul li {
+   list-style: none;
+   
+
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+/* SERVIZI */
+
+
+h1{
+    width:500px;
+    margin: 0 auto;
+color: #fff;
+font-size: 50px;
+    text-align: center;
+}
+
+ 
+#servizi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: #fff;
+    margin: 0 10px;
+    font-size: 25px;
+    
+  }
+  
